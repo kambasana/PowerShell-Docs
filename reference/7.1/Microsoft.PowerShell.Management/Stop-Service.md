@@ -22,20 +22,6 @@ Stop-Service [-Force] [-NoWait] [-InputObject] <ServiceController[]> [-PassThru]
  [-Exclude <String[]>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
-### Default
-
-```
-Stop-Service [-Force] [-NoWait] [-Name] <String[]> [-PassThru] [-Include <String[]>] [-Exclude <String[]>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
-### DisplayName
-
-```
-Stop-Service [-Force] [-NoWait] [-PassThru] -DisplayName <String[]> [-Include <String[]>] [-Exclude <String[]>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
-```
-
 ## DESCRIPTION
 
 The `Stop-Service` cmdlet sends a stop message to the Windows Service Controller for each of the
